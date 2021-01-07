@@ -10,11 +10,16 @@ import org.mapstruct.Named;
 
 @Mapper(componentModel = "spring")
 public interface PlaceMapper {
+
     @IterableMapping(qualifiedByName = "regionToRegionDTO")
     CountryWithRegionDTO countryToCountryWithRegionDTO(Country country);
+
     CountryDTO countryToCountryDTO(Country country);
-    @Named("regionToRegionDTO")
+
     RegionDTO regionToRegionDTO(Region region);
+
     DistrictDTO districtToDistrictDTO(District district);
+
+    @Named("regionToRegionWithDistrictDTO")
     RegionWithDistrictDTO regionToRegionWithDistrictDTO(Region region);
 }

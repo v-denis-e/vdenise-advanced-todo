@@ -13,6 +13,7 @@ import javax.validation.constraints.Size;
 @ToString(callSuper = true)
 @Data
 @NoArgsConstructor
+@RequiredArgsConstructor
 @Schema(name = "District")
 public class DistrictDTO extends RepresentationModel<DistrictDTO> {
 
