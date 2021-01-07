@@ -1,8 +1,7 @@
 package kz.vdenise.vdeniseadvancedtodo.staff.domain;
 
-public class Gender {
+import kz.vdenise.vdeniseadvancedtodo.staff.common.domain.NamedEntity;
 
-    private Long id;
-    private String name;
+public class Gender extends NamedEntity {
 
 }

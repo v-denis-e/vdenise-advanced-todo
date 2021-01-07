@@ -1,8 +1,9 @@
 package kz.vdenise.vdeniseadvancedtodo.staff.domain;
 
-public class Contact {
+import kz.vdenise.vdeniseadvancedtodo.staff.common.domain.BaseEntity;
 
-    private Long id;
+public class Contact extends BaseEntity {
+
     private ContactType type;
     private String title;
     private String description;

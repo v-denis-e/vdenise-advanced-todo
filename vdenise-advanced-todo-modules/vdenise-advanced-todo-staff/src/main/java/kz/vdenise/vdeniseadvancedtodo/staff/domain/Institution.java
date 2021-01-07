@@ -1,9 +1,8 @@
 package kz.vdenise.vdeniseadvancedtodo.staff.domain;
 
-public class Institution {
+import kz.vdenise.vdeniseadvancedtodo.staff.common.domain.NamedEntity;
 
-    private Long id;
-    private String name;
+public class Institution extends NamedEntity {
 
     private String url;
 

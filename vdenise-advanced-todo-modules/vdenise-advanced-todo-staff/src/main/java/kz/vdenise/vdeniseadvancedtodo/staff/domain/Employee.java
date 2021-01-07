@@ -1,11 +1,12 @@
 package kz.vdenise.vdeniseadvancedtodo.staff.domain;
 
+import kz.vdenise.vdeniseadvancedtodo.staff.common.domain.BaseEntity;
+
 import java.time.LocalDate;
 import java.util.Set;
 
-public class Employee {
+public class Employee extends BaseEntity {
 
-    private Long id;
     private String firstName;
     private String lastName;
     private String middleName;

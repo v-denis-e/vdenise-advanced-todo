@@ -1,9 +1,9 @@
 package kz.vdenise.vdeniseadvancedtodo.staff.domain;
 
-public class District {
+import kz.vdenise.vdeniseadvancedtodo.staff.common.domain.NamedEntity;
 
-    private Long id;
-    private String name;
+public class District extends NamedEntity {
+
     private Region region;
 
 }

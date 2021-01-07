@@ -1,9 +1,9 @@
 package kz.vdenise.vdeniseadvancedtodo.staff.domain;
 
-public class Department {
+import kz.vdenise.vdeniseadvancedtodo.staff.common.domain.NamedEntity;
 
-    private Long id;
-    private String name;
+public class Department extends NamedEntity {
+
     private Boolean isActive;
 
     private Country addressCountry;

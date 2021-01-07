@@ -1,8 +1,9 @@
 package kz.vdenise.vdeniseadvancedtodo.staff.domain;
 
-public class Education {
+import kz.vdenise.vdeniseadvancedtodo.staff.common.domain.BaseEntity;
 
-    private Long id;
+public class Education extends BaseEntity {
+
     private EducationType type;
 
     private String diplomaNumber;
