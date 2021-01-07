@@ -20,7 +20,7 @@
 	<modules>
 		<module>vdenise-advanced-todo-webapp</module>
         <module>vdenise-advanced-todo-modules</module>
-    </modules>
+	</modules>
 
 	<properties>
 		<java.version>11</java.version>
