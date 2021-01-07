@@ -26,6 +26,7 @@
 		<java.version>11</java.version>
 		<spring-cloud.version>2020.0.0</spring-cloud.version>
 		<mapstruct.version>1.4.1.Final</mapstruct.version>
+		<openapi.version>1.5.2</openapi.version>
 	</properties>
 
 	<dependencies>
