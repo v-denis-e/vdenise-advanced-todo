@@ -2,11 +2,9 @@ package kz.vdenise.vdeniseadvancedtodo.staff.place.domain;
 
 import kz.vdenise.vdeniseadvancedtodo.staff.common.domain.NamedEntity;
 import lombok.*;
+import org.springframework.data.jpa.domain.support.AuditingEntityListener;
 
-import javax.persistence.CascadeType;
-import javax.persistence.Entity;
-import javax.persistence.OneToMany;
-import javax.persistence.Table;
+import javax.persistence.*;
 import java.util.HashSet;
 import java.util.Set;
 
@@ -16,6 +14,7 @@ import java.util.Set;
 @EqualsAndHashCode(callSuper = true, exclude = {"regions"})
 @ToString(callSuper = true, exclude = {"regions"})
 @Entity
+@EntityListeners(AuditingEntityListener.class)
 @Table(schema = "staff")
 public class Country extends NamedEntity {
 

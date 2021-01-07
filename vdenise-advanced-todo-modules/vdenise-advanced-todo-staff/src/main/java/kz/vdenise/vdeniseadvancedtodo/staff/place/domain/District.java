@@ -2,11 +2,9 @@ package kz.vdenise.vdeniseadvancedtodo.staff.place.domain;
 
 import kz.vdenise.vdeniseadvancedtodo.staff.common.domain.NamedEntity;
 import lombok.*;
+import org.springframework.data.jpa.domain.support.AuditingEntityListener;
 
-import javax.persistence.Entity;
-import javax.persistence.JoinColumn;
-import javax.persistence.ManyToOne;
-import javax.persistence.Table;
+import javax.persistence.*;
 import javax.validation.constraints.NotNull;
 
 @Setter
@@ -15,6 +13,7 @@ import javax.validation.constraints.NotNull;
 @EqualsAndHashCode(callSuper = true)
 @ToString(callSuper = true)
 @Entity
+@EntityListeners(AuditingEntityListener.class)
 @Table(schema = "staff")
 public class District extends NamedEntity {
 

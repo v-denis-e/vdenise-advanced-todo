@@ -2,6 +2,7 @@ package kz.vdenise.vdeniseadvancedtodo.staff.place.domain;
 
 import kz.vdenise.vdeniseadvancedtodo.staff.common.domain.NamedEntity;
 import lombok.*;
+import org.springframework.data.jpa.domain.support.AuditingEntityListener;
 
 import javax.persistence.*;
 import javax.validation.constraints.NotNull;
@@ -14,6 +15,7 @@ import java.util.Set;
 @EqualsAndHashCode(callSuper = true, exclude = "districts")
 @ToString(callSuper = true, exclude = "districts")
 @Entity
+@EntityListeners(AuditingEntityListener.class)
 @Table(schema = "staff")
 public class Region extends NamedEntity {
 
