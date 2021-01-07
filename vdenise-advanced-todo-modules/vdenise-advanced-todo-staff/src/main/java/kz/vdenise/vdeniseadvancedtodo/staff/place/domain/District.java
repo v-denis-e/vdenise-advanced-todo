@@ -24,6 +24,7 @@ public class District extends NamedEntity {
     @JoinColumn(name = "region_id")
     private Region region;
 
+    @Builder
     public District(Long id, String name) {
         this.setId(id);
         this.setName(name);
