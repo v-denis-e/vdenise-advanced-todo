@@ -1,0 +1,13 @@
+spring:
+  application:
+    name: vdenise-advanced-todo
+
+logging:
+  level:
+    root: DEBUG
+
+springdoc:
+  api-docs:
+    path: /docs
+  swagger-ui:
+    path: /ui
