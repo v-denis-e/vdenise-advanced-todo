@@ -1,6 +1,9 @@
 package kz.vdenise.vdeniseadvancedtodo.staff.domain;
 
 import kz.vdenise.vdeniseadvancedtodo.staff.common.domain.BaseEntity;
+import kz.vdenise.vdeniseadvancedtodo.staff.place.domain.Country;
+import kz.vdenise.vdeniseadvancedtodo.staff.place.domain.District;
+import kz.vdenise.vdeniseadvancedtodo.staff.place.domain.Region;
 import lombok.*;
 
 import javax.persistence.*;

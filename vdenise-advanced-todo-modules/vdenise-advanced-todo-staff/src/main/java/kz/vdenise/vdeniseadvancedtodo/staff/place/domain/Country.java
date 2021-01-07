@@ -1,4 +1,4 @@
-package kz.vdenise.vdeniseadvancedtodo.staff.domain;
+package kz.vdenise.vdeniseadvancedtodo.staff.place.domain;
 
 import kz.vdenise.vdeniseadvancedtodo.staff.common.domain.NamedEntity;
 import lombok.*;
