@@ -19,7 +19,8 @@
 
 	<modules>
 		<module>vdenise-advanced-todo-webapp</module>
-	</modules>
+        <module>vdenise-advanced-todo-modules</module>
+    </modules>
 
 	<properties>
 		<java.version>11</java.version>
